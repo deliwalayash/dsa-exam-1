@@ -14,57 +14,57 @@ int main()
 
     if (mark > 90)
     {
-        cout << "Your Grade is A" << endl;
+        cout << "Your Grade is A." << endl;
         grade = 'a';
     }
     else if (mark > 80)
     {
 
-        cout << "Your Grade is B" << endl;
+        cout << "Your Grade is B." << endl;
         grade = 'b';
     }
     else if (mark > 70)
     {
 
-        cout << "Your Grade is c" << endl;
+        cout << "Your Grade is C." << endl;
         grade = 'c';
     }
     else if (mark > 60)
     {
 
-        cout << "Your Grade is D" << endl;
+        cout << "Your Grade is D." << endl;
         grade = 'd';
     }
     else if (mark > 50)
     {
 
-        cout << "Your Grade is E" << endl;
+        cout << "Your Grade is E." << endl;
         grade = 'e';
     }
     else
     {
-        cout << "Your Grade is F" << endl;
+        cout << "Your Grade is F." << endl;
         grade = 'f';
     }
     switch (grade)
     {
         case 'a':
-        cout << "Excellent Work" << endl;
+        cout << "Excellent Work." << endl;
         break;
         case 'b':
-        cout << "Well Done" << endl;
+        cout << "Well Done." << endl;
         break;
         case 'c':
-        cout << "Good Job" << endl;
+        cout << "Good Job." << endl;
         break;
         case 'd':
-        cout << "You are passed" << endl;
+        cout << "You are Passed." << endl;
         break;
         case 'e':
-        cout << "You are passed,But you can do better" << endl;
+        cout << "You are Passed,But you can do Better." << endl;
         break;
         case 'f':
-        cout << "You are failed" << endl;
+        cout << "You are failed." << endl;
         break;
     }
 
@@ -72,7 +72,7 @@ int main()
         cout <<"Congratulations !You are eligible for next level";
     }
        else{
-        cout <<"Please try again next time";
+        cout <<"Please Try Again Next Time";
 
        }
     return 0;
