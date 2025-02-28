@@ -69,10 +69,10 @@ int main()
     }
 
     if(grade =='a' || grade =='b' || grade == 'c' || grade=='d'){
-        cout <<"Congratulations !You are eligible for next level";
+        cout <<"Congratulations !You are eligible for next level.";
     }
        else{
-        cout <<"Please Try Again Next Time";
+        cout <<"Please Try Again Next Time.";
 
        }
     return 0;
