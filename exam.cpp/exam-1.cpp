@@ -46,6 +46,7 @@ int main()
         cout << "Your Grade is F." << endl;
         grade = 'f';
     }
+    
     switch (grade)
     {
         case 'a':
